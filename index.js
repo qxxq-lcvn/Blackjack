@@ -1,7 +1,3 @@
-//Login
-let text = "";
-let age = 22;
-let isValid = false;
 
 //Before the game starts
 let allCard = [];
@@ -28,25 +24,6 @@ let cardEl = document.querySelector("#cards-el");
 let playerEl = document.querySelector("#player-el");
 
 playerEl.textContent = player.name + ": $" + player.chips;
-
-//Authorization
-function checkAge() {
-    if (age < 21) {
-        text = "You are not allowed here.";
-    } else {
-        text = "Welcome!";
-        isValid = true;
-    }
-
-    textEl.textContent = text;
-}
-
-//Enter the game
-function enterGame() {
-    if (isValid === true) {
-        location.replace("index.html");
-    }
-}
 
 //Start game
 function startGame() {
@@ -103,11 +80,4 @@ function newCard() {
         allCard.push(thirdCard);
         renderGame();
     }
-}
-
-//Cash out
-
-//Log out
-function back() {
-    location.href = "login.html";
 }
