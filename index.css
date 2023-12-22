@@ -1,0 +1,32 @@
+body {
+    background-color: #ECF4D6;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    color: #9AD0C2;
+    padding: 30px;
+}
+
+p {
+    color: #265073;
+    font-weight: bold;
+}
+
+#message-el {
+    color: #2D9596;
+    font-style: italic;
+}
+
+button {
+    background-color: #9AD0C2;
+    color: #2D9596;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 5px;
+    margin: 5px 0;
+}
